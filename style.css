@@ -70,5 +70,30 @@ button:active {
 }
 
 img {
-    height: 500px;
+    height: 400px;
+}
+
+@media screen and (max-width: 755px) {
+    h2 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .input-min {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    img {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+
+    input {
+        display: flex;
+        margin: 0 auto;
+    }
+
 }
